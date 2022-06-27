@@ -29,7 +29,7 @@ public class UserActorsService {
     actorDetails.setAge(userActorsDTO.getAge());
     actorDetails.setUser(userRepository.findByEmail(user.getName()));
     UserActors savedActor = userActorsRepository.save(actorDetails);
-    return savedActor.getName()+" added to your Actorslist successfully";
+    return savedActor.getName()+" was added to your Actorslist successfully";
   }
 
   public List<UserActors> getActors(Authentication principal){
