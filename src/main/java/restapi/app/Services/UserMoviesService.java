@@ -26,7 +26,7 @@ public class UserMoviesService {
     movieDetails.setTmdb_id(userMoviesDTO.getTmdb_id());
     movieDetails.setUser(userRepository.findByEmail(user.getName()));
     UserMovies savedMovie = userMoviesRepository.save(movieDetails);
-    return savedMovie.getTitle()+" added to your movielist successfully";
+    return savedMovie.getTitle()+" was added to your movielist successfully";
   }
 
   public List<UserMovies> getMovies(Authentication principal){
