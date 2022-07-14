@@ -1,5 +1,5 @@
 # MoviePlus  Server (Backend)
-<img src="https://i.ibb.co/Hdq55GW/spring.jpg" alt="spring" border="0" align="center"> 
+<img src="https://i.ibb.co/Hdq55GW/spring.jpg" alt="spring" border="0" width="400" align="center"> 
 
 ## Project Summary 
 * This  is a Restful Spring boot application with CRUD operations that allow users to create an account to the movieplus app, save or add actors and movies , delete those actors and movies and login and out using spring security.
